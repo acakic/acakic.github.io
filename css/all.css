@@ -653,7 +653,7 @@ transition: all 0.5s ease-in-out;
 
 @media (-webkit-min-device-pixel-ratio:2) ,(min--moz-device-pixel-ratio:2),(-o-min-device-pixel-ratio:2/1),(min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){
 	#main {
-		background-image: url(../images/icon_header@x2.png);
+		/*background-image: url(../images/icon_header@x2.png);*/
 		background-size:114px 46px;
 	}
 	.menu_trigger{
