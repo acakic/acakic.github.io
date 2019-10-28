@@ -1,34 +1,11 @@
-<!DOCTYPE html>
-<!--[if lte IE 8]> <html class="oldie" lang="en"> <![endif]-->
-<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="format-detection" content="telephone=no">
-	<title>John Markowitz</title>
-<!-- add fancybox.css -->
-	<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="css/all.css" />
-	<link rel="stylesheet" href="css/screen.css" />
-	<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+<?php include 'header.php';	?> 
 </head>
 <body>
 	<div id="wrapper" class="portfolio">
 		<div class="wrapper-holder">
 			<header id="header">
 				<a class="menu_trigger" href="#">menu</a>
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="myskills.html">My skills</a></li>
-							<li><a class="active" href="Portfolio.html">Portfolio</a></li>
-							<li><a href="Contact.html">Contact</a></li>
-						</ul>
-					</nav>
+					<?php include 'navigation.php';	?> 
 			</header>
 		</div>
 		<div class="wrapper-holder grey">
@@ -38,8 +15,8 @@
 					<li class="active" data-filter="*">All works</li>
 					<li data-filter=".web">Web design</li>
 					<li data-filter=".illustration">Illustration</li>
-					<li data-filter=".dtp">DTP</li>
-					<li data-filter=".key">Key Visual</li>
+					<li data-filter=".dtp">Projects</li>
+					<li data-filter=".key">gimp/photoshop</li>
 					<li data-filter=".identity">Identity</li>
 				</ul>
 				<ul id="container" class="item-list">
@@ -49,8 +26,8 @@
 							<div class="hover">
 								<a class="fancybox" rel="gallery1" href="#portfolio_1">
 									<div class="item-content">
-										<h4>voluptas assumenda</h4>
-										<p>Sepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</p>
+										<h4>Avatar</h4>
+										<p>This picture (avatar) was made for steam. Like a nickname</p>
 									</div>
 								</a>
 							</div>
@@ -75,8 +52,8 @@
 							<div class="hover">
 								<a class="fancybox" rel="gallery1" href="#portfolio_3">
 									<div class="item-content">
-										<h4>voluptas assumenda</h4>
-										<p>Sepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</p>
+										<h4>PHP project from scratch</h4>
+										<p>This is my first project I've worked on completely alone. It's an online shop. Made in MVC architecture.</p>
 									</div>
 								</a>
 							</div>
@@ -88,8 +65,8 @@
 							<div class="hover">
 								<a class="fancybox" rel="gallery1" href="#portfolio_4">
 									<div class="item-content">
-										<h4>voluptas assumenda</h4>
-										<p>Sepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</p>
+										<h4>Logo</h4>
+										<p>Created logo for ManSistem hidraulic company. </p>
 									</div>
 								</a>
 							</div>
@@ -114,8 +91,8 @@
 							<div class="hover">
 								<a class="fancybox" rel="gallery1" href="#portfolio_6">
 									<div class="item-content">
-										<h4>voluptas assumenda</h4>
-										<p>Sepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</p>
+										<h4>WordPress project</h4>
+										<p>I worked on this site at an archisolar company. It has helped me a lot to learn what it is like to work in WordPress</p>
 									</div>
 								</a>
 							</div>
@@ -150,7 +127,8 @@
 				</ul>
 			</section>
 		</div>
-		<footer id="footer">
+		<?php include 'footer.php';	?>
+		<!-- <footer id="footer">
 			<div class="footer-content">
 				<ul class="social">
 					<li class="email"><a href="#">Email</a></li>
@@ -162,7 +140,7 @@
 				<p class="copy">Copyright 2014 John Markowitz. All rights reserved.</p>
 			</div>
 		</footer>	
-	</div>
+	</div>-->
 	<div style="display:none;">
 		<div id="portfolio_1" class="popup_portfolio">
 			<img src="images/img_pf02.jpg"  alt="" />
@@ -219,4 +197,4 @@
 	<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
-</html>
+</html> -->

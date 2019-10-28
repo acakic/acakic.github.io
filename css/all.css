@@ -136,6 +136,9 @@ a:hover{text-decoration:underline;}
 	width:100%;
     display:table-row;
     background: #50af6f;
+    /*background: url(../images/code.jpeg);*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
 }
 .wrapper-holder.grey{background: #28292b;}
 #header {
@@ -194,9 +197,9 @@ a:hover{text-decoration:underline;}
 	border-bottom: 4px solid #fff;
 	text-decoration: none;
 	-webkit-transition: all 0.5s ease-in-out;
--moz-transition: all 0.5s ease-in-out;
--o-transition: all 0.5s ease-in-out;
-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 h2.slogan{
 	display: block;
@@ -327,13 +330,15 @@ h2.slogan{
 	font-size: 18px;
 	padding: 0 0 0 20px;
 }
-.progress li span.photoshop{width: 100%;}
-.progress li span.illustrator{width: 70%;}
-.progress li span.indesign{width: 40%;}
+.progress li span.gimp{width: 90%;}
+.progress li span.photoshop{width: 70%;}
 .progress li span.flash{width: 80%;}
-.progress li span.html{width: 75%;}
-.progress li span.wordpress{width: 85%;}
-.progress li span.jquery{width: 70%;}
+.progress li span.html{width: 85%;}
+.progress li span.css{width: 85%;}
+.progress li span.javascript{width: 65%;}
+.progress li span.mysql{width: 55%;}
+.progress li span.wordpress{width: 75%;}
+.progress li span.jquery{width: 40%;}
 .progress li span.seo{width: 40%;}
 .plagin_list{
 	width: 100%;
@@ -361,13 +366,14 @@ h2.slogan{
 	position: relative;
 }
 .plagin_list li.li_1 a{background: url(../images/icon_ps.png) no-repeat 50% 50% ;}
-.plagin_list li.li_2 a{background: url(../images/icon_ai.png) no-repeat 50% 50% ;}
-.plagin_list li.li_3 a{background: url(../images/icon_ld.png) no-repeat 50% 50% ;}
-.plagin_list li.li_4 a{background: url(../images/icon_fl.png) no-repeat 50% 50% ;}
-.plagin_list li.li_5 a{background: url(../images/icon_html.png) no-repeat 50% 50% ;}
-.plagin_list li.li_6 a{background: url(../images/icon_wp.png) no-repeat 50% 50% ;}
-.plagin_list li.li_7 a{background: url(../images/icon_jq.png) no-repeat 50% 50% ;}
-.plagin_list li.li_8 a{background: url(../images/icon_seo.png) no-repeat 50% 50% ;}
+.plagin_list li.li_2 a{background: url(../images/icon_gimp.png) no-repeat 50% 50% ;}
+.plagin_list li.li_3 a{background: url(../images/icon_vegas.png) no-repeat 50% 50% ;}
+.plagin_list li.li_4 a{background: url(../images/icon_html.png) no-repeat 50% 50% ;}
+.plagin_list li.li_5 a{background: url(../images/icon_css3.png) no-repeat 50% 50% ;}
+.plagin_list li.li_6 a{background: url(../images/icon_php.png) no-repeat 50% 50% ;}
+.plagin_list li.li_7 a{background: url(../images/icon_wp.png) no-repeat 50% 50% ;}
+.plagin_list li.li_8 a{background: url(../images/icon_jq.png) no-repeat 50% 50% ;}
+/*.plagin_list li.li_9 a{background: url(../images/icon_php.png) no-repeat 50% 50% ;}*/
 .wrapper-holder.grey p{padding: 0 0 25px;}
 .plagin_list.none{display: none;}
 
@@ -495,7 +501,9 @@ transition: all 0.5s ease-in-out;
 	line-height: 17px;
 }
 /*contact*/
-.clear{clear: both;}
+.clear{
+	clear: both;
+}
 .images_holder{
 	float: left;
 	margin:5px 130px 0 0;
@@ -503,6 +511,7 @@ transition: all 0.5s ease-in-out;
 }
 .images_holder img{
 	width: 100%;
+	border-radius: 50%;
 	height: auto;
 	display: inline;
 }
@@ -520,9 +529,12 @@ transition: all 0.5s ease-in-out;
 	margin: 0 0 55px;
 	padding: 5px 0 18px 80px;
 }
+.box_contact span a{
+	color: #ffff;
+}
 .box_contact span.email{background: url(../images/icon_email2.png) no-repeat;}
 .box_contact span.phone{background: url(../images/icon_phone.png) no-repeat;}
-.box_contact span.skype{background: url(../images/icon_skype.png) no-repeat;}
+.box_contact span.linkedin{background: url(../images/linkedin2.png) no-repeat;}
 /*footer
  */
 #footer {
@@ -568,9 +580,9 @@ transition: all 0.5s ease-in-out;
 }
 .footer-content .social li.email a{background: url(../images/icon_email.png) no-repeat 50% 50% ;}
 .footer-content .social li.facebook a{background: url(../images/icon_fb.png) no-repeat 50% 50%;}
-.footer-content .social li.google a{background: url(../images/icon_gl.png) no-repeat 50% 50% ;}
-.footer-content .social li.twitter a{background: url(../images/icon_tw.png) no-repeat 50% 50% ;}
-.footer-content .social li.pinterest a{background: url(../images/icon_pn.png) no-repeat 50% 50%;}
+.footer-content .social li.google a{background: url(../images/icon_github.png) no-repeat 50% 50% ;}
+.footer-content .social li.twitter a{background: url(../images/icon_instagram.png) no-repeat 50% 50% ;}
+.footer-content .social li.pinterest a{background: url(../images/icon_linkedin.png) no-repeat 50% 50%;}
 .footer-content p{
 	font:18px/20px Arial, Helvetica, sans-serif;
 	display: block;
@@ -709,8 +721,8 @@ transition: all 0.5s ease-in-out;
 		background-image: url(../images/icon_phone@x2.png);
 		background-size:54px 54px;
 	}
-	.box_contact span.skype{
-		background-image: url(../images/icon_skype@x2.png);
+	.box_contact span.linkedin{
+		background-image: url(../images/linkedin.png);
 		background-size:54px 51px;
 	}
 /* begin add	 */
