@@ -17,6 +17,3 @@
     <![endif]-->
 
 <body>
-
-</body>
-</html>
