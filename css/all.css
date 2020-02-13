@@ -195,15 +195,15 @@ a:hover{text-decoration:underline;}
 	font-family: 'novecentosanswide';
 	font-weight: normal;
 }
-/*#nav ul li:target a {*/
-/*	color: #fff;*/
-/*	border-bottom: 4px solid #fff;*/
-/*	text-decoration: none;*/
-/*	-webkit-transition: all 0.5s ease-in-out;*/
-/*	-moz-transition: all 0.5s ease-in-out;*/
-/*	-o-transition: all 0.5s ease-in-out;*/
-/*	transition: all 0.5s ease-in-out;*/
-/*}*/
+/*#nav ul li:target a {
+	color: #fff;
+	border-bottom: 4px solid #fff;
+	text-decoration: none;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}*/
 .tab div:target{
 	display: block !important;
 }
@@ -345,16 +345,18 @@ h2.slogan{
 	font-size: 18px;
 	padding: 0 0 0 20px;
 }
-.progress li span.gimp{width: 90%;}
-.progress li span.photoshop{width: 70%;}
-.progress li span.flash{width: 80%;}
-.progress li span.html{width: 85%;}
-.progress li span.css{width: 85%;}
-.progress li span.javascript{width: 65%;}
-.progress li span.mysql{width: 55%;}
-.progress li span.wordpress{width: 75%;}
-.progress li span.jquery{width: 40%;}
-.progress li span.seo{width: 40%;}
+.progress li span.gimp{width: 100%;}
+.progress li span.photoshop{width: 100%;}
+.progress li span.sony{width: 100%;}
+.progress li span.audacity{width: 100%;}
+.progress li span.php{width: 100%;}
+.progress li span.html5{width: 100%;}
+.progress li span.javascript{width: 100%;}
+.progress li span.mysql{width: 100%;}
+.progress li span.css3{width: 100%;}
+.progress li span.wordpress{width: 100%;}
+.progress li span.git{width: 100%;}
+.progress li span.ajax{width: 100%;}
 .plagin_list{
 	width: 100%;
 	overflow: hidden;
@@ -546,6 +548,7 @@ transition: all 0.5s ease-in-out;
 }
 .box_contact span a{
 	color: #ffff;
+	font-size: 20px;
 }
 .box_contact span.email{background: url(../images/icon_email2.png) no-repeat;}
 .box_contact span.phone{background: url(../images/icon_phone.png) no-repeat;}
@@ -568,9 +571,10 @@ transition: all 0.5s ease-in-out;
 	overflow:hidden;
 	margin: 0 auto 45px;
 	width: 670px;
+	text-align: center;
 }
 .footer-content .social li{
-	float:left;
+	/*float:left;*/
 	margin: 0 0 0 10px;
 	border-radius: 50%;
 	behavior: url(css/PIE.htc);
@@ -579,7 +583,7 @@ transition: all 0.5s ease-in-out;
 	width: 123px;
 	height: 123px;
 	position:relative;
-	display: table;
+	display: inline-table;
 }
 .footer-content .social li:first-child{margin: 0;}
 .footer-content .social li:hover{
@@ -595,9 +599,9 @@ transition: all 0.5s ease-in-out;
 }
 .footer-content .social li.email a{background: url(../images/icon_email.png) no-repeat 50% 50% ;}
 .footer-content .social li.facebook a{background: url(../images/icon_fb.png) no-repeat 50% 50%;}
-.footer-content .social li.google a{background: url(../images/icon_github.png) no-repeat 50% 50% ;}
-.footer-content .social li.twitter a{background: url(../images/icon_instagram.png) no-repeat 50% 50% ;}
-.footer-content .social li.pinterest a{background: url(../images/icon_linkedin.png) no-repeat 50% 50%;}
+.footer-content .social li.github a{background: url(../images/icon_github.png) no-repeat 50% 50% ;}
+.footer-content .social li.linkedin a{background: url(../images/icon_linkedin.png) no-repeat 50% 50% ;}
+/*.footer-content .social li.pinterest a{background: url(../images/icon_linkedin.png) no-repeat 50% 50%;}*/
 .footer-content p{
 	font:18px/20px Arial, Helvetica, sans-serif;
 	display: block;
@@ -746,4 +750,23 @@ transition: all 0.5s ease-in-out;
 		background-size:46px 46px;
 	}
 /* end add	 */
+}
+.upArrow{
+	position: fixed;
+	right: 10%;
+	bottom: 10%;
+	z-index: 9999999;
+	width: 30px;
+	padding: 10px;
+	display: none;
+	background-color: #50af6f;
+	border-radius: 50%;
+}
+.upArrow a img{
+	width: 100%;
+}
+
+.eye{
+	margin: 0 auto;
+	display: block;
 }

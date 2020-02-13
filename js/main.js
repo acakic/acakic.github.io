@@ -54,7 +54,34 @@ $(document).ready(function() {
 	    }
 	  }
 	});
-// end add	
+// end add
+    $('.smoothscroll').on('click',function (e) {
+        e.preventDefault();
+
+        var target = this.hash,
+            $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 800, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+    //scroll to top
+    $('.upArrow').on('click', function(e){
+        e.preventDefault();
+        console.log('radi')
+        $('html,body').animate({
+            scrollTop: 0
+        }, 700);
+    });
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 50) {            
+            $('.upArrow').css('display', 'block');
+        }else{
+            $('.upArrow').css('display', 'none');
+        }
+    })
 }); 
 $(window).resize(function() {
     if($(document).width() > 768){
